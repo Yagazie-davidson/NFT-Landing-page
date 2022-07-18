@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Poppins:wght@500&family=Space+Grotesk:wght@400;500;700&display=swap');
+
+.space-g {
+  font-family: "Space Grotesk", sans-serif;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+.dm-mono {
+  font-family: "DM Mono", monospace;
+}
+.text-color {
+  color: #e5e5e5;
+}
+.btn-gradient {
+  background: linear-gradient(
+    85.76deg,
+    rgba(191, 196, 238, 0.0945738) -105.02%,
+    #c367e6 10.94%,
+    rgba(190, 206, 239, 0) 121.57%
+  );
+}
+.ash {
+  color: #545c71;
+}
+.market {
+  color: linear-gradient(180deg, #9c76b8 0%, rgba(156, 118, 184, 0) 100%);
+}
+.zoom {
+  transition: transform 0.2s;
+}

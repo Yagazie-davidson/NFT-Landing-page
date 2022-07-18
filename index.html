@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>NFT Landing page</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .background {
+          background-color: #1c233d;
+        }
+      }
+    </style>
+  </head>
+  <body class="background px-24">
+    <hero class="h-screen">
+      <header class="flex justify-between py-5 align-center">
+        <h1 class="space-g text-white text-2xl">LOGO</h1>
+        <nav>
+          <ul class="flex gap-10">
+            <li><a href="" class="text-color space-g">Explore</a></li>
+            <li><a href="" class="text-color space-g">Marketplace</a></li>
+            <li><a href="" class="text-color space-g">Artist</a></li>
+            <li><a href="" class="text-color space-g">Collection</a></li>
+          </ul>
+        </nav>
+        <input
+          type="text"
+          placeholder="Search"
+          id="search"
+          class="background border-none focus:outline-offset-transparent text-white"
+        />
+        <button class="text-color space-g btn-gradient w-24 h-8 rounded">
+          Sign in
+        </button>
+      </header>
+      <section class="flex justify-between align-center mt-20">
+        <div>
+          <h1 class="space-g text-white font-bold text-6xl">
+            Discover, Sell<br />
+            & Collect Rare<br />
+            NFTs
+          </h1>
+          <p class="text-white poppins text-base pt-8">
+            Digital marketplace for crypto collections and<br />
+            non-fungible tokens (NFTs)
+          </p>
+          <button
+            class="btn-gradient text-white h-10 w-52 rounded mt-6 space-g text-base"
+          >
+            Discover Now
+          </button>
+          <div class="flex justify-between mt-20">
+            <div>
+              <h1 class="text-white space-g text-4xl">35K+</h1>
+              <p class="text-color space-g pt-1">Artwork</p>
+            </div>
+            <div>
+              <h1 class="text-white space-g text-4xl">15K+</h1>
+              <p class="text-color space-g pt-1">Auctions</p>
+            </div>
+            <div>
+              <h1 class="text-white space-g text-4xl">25K+</h1>
+              <p class="text-color space-g pt-1">Artists</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#30384D] px-9 pt-7 pb-7 rounded-xl">
+          <img src="./assets/Heronft.png" />
+          <div class="flex justify-between pt-4 align-center">
+            <div>
+              <h2 class="space-g text-white text-lg">Monkey Apes</h2>
+            </div>
+            <div class="flex">
+              <img src="./assets/nfticon.png" class="h-7 w-7" />
+              <img src="./assets/nfticon2.png" class="h-7 w-7" />
+              <img src="./assets/nfticon3.png" class="h-7 w-7" />
+            </div>
+          </div>
+          <div class="flex justify-between pt-4 gap-5">
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Current Bid</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                0.45 ETH
+              </p>
+            </div>
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Authors</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                900 Authors
+              </p>
+            </div>
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Ending In</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img src="./assets/fire2.png" class="h-4" />
+                10h 44min 12s
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </hero>
+    <section class="flex justify-center gap-2 mt-20">
+      <img src="./assets/coinbase.png" />
+      <img src="./assets/Trezor.png" />
+      <img src="./assets/Exodus.png" />
+      <img src="./assets/bitGo.png" />
+    </section>
+    <section class="mt-24">
+      <h4 class="dm-mono market text-sm text-center font-medium">
+        NFT Marketplace
+      </h4>
+      <div class="flex justify-center gap-2 mt-4">
+        <p class="space-g font-medium text-white text-3xl">Super Hot Drops</p>
+        <img src="./assets/fire2.png" class="h-7 w-5" />
+      </div>
+
+      <!-- List of categories -->
+      <div class="flex gap-6 justify-center mt-8">
+        <button
+          class="dm-mono text-white bg-[#30384D] py-2.5 px-6 rounded hover:scale-110 zoom"
+        >
+          Music
+        </button>
+        <button
+          class="dm-mono text-white bg-[#30384D] py-2.5 px-6 rounded hover:scale-110 zoom"
+        >
+          Art
+        </button>
+        <button
+          class="dm-mono text-white bg-[#30384D] py-2.5 px-6 rounded hover:scale-110 zoom"
+        >
+          Sport
+        </button>
+        <button
+          class="dm-mono text-white bg-[#30384D] py-2.5 px-6 rounded hover:scale-110 zoom"
+        >
+          Photography
+        </button>
+        <button
+          class="dm-mono text-white bg-[#30384D] py-2.5 px-6 rounded hover:scale-110 zoom"
+        >
+          Virtual Reality
+        </button>
+        <button
+          class="dm-mono text-white bg-[#30384D] py-2.5 px-6 rounded hover:scale-110 zoom"
+        >
+          Videos
+        </button>
+        <button
+          class="dm-mono text-white bg-[#30384D] py-2.5 px-6 rounded hover:scale-110 zoom"
+        >
+          More
+        </button>
+      </div>
+
+      <!-- Cards -->
+      <div class="mt-20 grid grid-cols-3 gap-12">
+        <div
+          class="bg-[#30384D] px-9 pt-7 pb-7 rounded-xl w-72 flex flex-col justify-center hover:scale-110 zoom"
+        >
+          <img src="./assets/nft/nft1.png" />
+          <div class="flex pt-4 align-center justify-between">
+            <div>
+              <div>
+                <h2 class="space-g text-white text-lg">Monkey Apes</h2>
+                <h2 class="space-g text-white text-xs">
+                  Created by <span class="text-sm">Letam</span>
+                </h2>
+              </div>
+            </div>
+            <div class="flex">
+              <img src="./assets/nfticon3.png" class="h-7 w-7" />
+            </div>
+          </div>
+          <div class="flex justify-between pt-4 gap-3">
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Current Bid</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                0.45 ETH
+              </p>
+            </div>
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Ending In</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img src="./assets/fire2.png" class="h-4" />
+                10h 44min 12s
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#30384D] px-9 pt-7 pb-7 rounded-xl w-72 flex flex-col justify-center hover:scale-110 zoom"
+        >
+          <img src="./assets/nft/nft2.png" />
+          <div class="flex pt-4 align-center justify-between">
+            <div>
+              <h2 class="space-g text-white text-lg">Monkey Apes</h2>
+              <h2 class="space-g text-white text-xs">
+                Created by <span class="text-sm">Letam</span>
+              </h2>
+            </div>
+            <div class="flex">
+              <img src="./assets/nfticon.png" class="h-7 w-7" />
+            </div>
+          </div>
+          <div class="flex justify-between pt-4 gap-3">
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Current Bid</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                0.45 ETH
+              </p>
+            </div>
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Ending In</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img src="./assets/fire2.png" class="h-4" />
+                10h 44min 12s
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#30384D] px-9 pt-7 pb-7 rounded-xl w-72 flex flex-col justify-center hover:scale-110 zoom"
+        >
+          <img src="./assets/nft/nft3.png" />
+          <div class="flex pt-4 align-center justify-between">
+            <div>
+              <h2 class="space-g text-white text-lg">Monkey Apes</h2>
+              <h2 class="space-g text-white text-xs">
+                Created by <span class="text-sm">Letam</span>
+              </h2>
+            </div>
+            <div class="flex">
+              <img src="./assets/nfticon2.png" class="h-7 w-7" />
+            </div>
+          </div>
+          <div class="flex justify-between pt-4 gap-3">
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Current Bid</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                0.45 ETH
+              </p>
+            </div>
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Ending In</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img src="./assets/fire2.png" class="h-4" />
+                10h 44min 12s
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#30384D] px-9 pt-7 pb-7 rounded-xl w-72 flex flex-col justify-center hover:scale-110 zoom"
+        >
+          <img src="./assets/nft/nft4.png" />
+          <div class="flex pt-4 align-center justify-between">
+            <div>
+              <h2 class="space-g text-white text-lg">Monkey Apes</h2>
+              <h2 class="space-g text-white text-xs">
+                Created by <span class="text-sm">Letam</span>
+              </h2>
+            </div>
+            <div class="flex">
+              <img src="./assets/nfticon3.png" class="h-7 w-7" />
+            </div>
+          </div>
+          <div class="flex justify-between pt-4 gap-3">
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Current Bid</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                0.45 ETH
+              </p>
+            </div>
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Ending In</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img src="./assets/fire2.png" class="h-4" />
+                10h 44min 12s
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#30384D] px-9 pt-7 pb-7 rounded-xl w-72 flex flex-col justify-center hover:scale-110 zoom"
+        >
+          <img src="./assets/nft/nft5.png" />
+          <div class="flex pt-4 align-center justify-between">
+            <div>
+              <h2 class="space-g text-white text-lg">Monkey Apes</h2>
+              <h2 class="space-g text-white text-xs">
+                Created by <span class="text-sm">Letam</span>
+              </h2>
+            </div>
+            <div class="flex">
+              <img src="./assets/nfticon.png" class="h-7 w-7" />
+            </div>
+          </div>
+          <div class="flex justify-between pt-4 gap-3">
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Current Bid</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                0.45 ETH
+              </p>
+            </div>
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Ending In</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img src="./assets/fire2.png" class="h-4" />
+                10h 44min 12s
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#30384D] px-9 pt-7 pb-7 rounded-xl w-72 flex flex-col justify-center hover:scale-110 zoom"
+        >
+          <img src="./assets/nft/nft6.png" />
+          <div class="flex pt-4 align-center justify-between">
+            <div>
+              <h2 class="space-g text-white text-lg">Monkey Apes</h2>
+              <h2 class="space-g text-white text-xs">
+                Created by <span class="text-sm">Letam</span>
+              </h2>
+            </div>
+            <div class="flex">
+              <img src="./assets/nfticon3.png" class="h-7 w-7" />
+            </div>
+          </div>
+          <div class="flex justify-between pt-4 gap-3">
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Current Bid</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                0.45 ETH
+              </p>
+            </div>
+            <div class="text-center">
+              <p class="dm-mono ash text-xs">Ending In</p>
+              <p
+                class="flex align-center gap-1 text-white dm-mono font-medium text-sm"
+              >
+                <img src="./assets/fire2.png" class="h-4" />
+                10h 44min 12s
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-20 flex justify-center flex-col items-center">
+      <h4 class="dm-mono market text-sm text-center font-medium market">
+        Be an NFT Creator
+      </h4>
+      <p class="space-g font-medium text-white text-4xl text-center mt-5">
+        Create & Sell your NFTs
+      </p>
+      <div class="grid grid-rows-1 grid-flow-col gap-4 m-14">
+        <div
+          class="flex flex-col items-center justify-center bg-[#30384D] py-8 px-16 w-96 rounded"
+        >
+          <div>
+            <img src="./assets/cynft.png" alt="" />
+          </div>
+          <h3 class="dm-mono text-white text-centetr">Create Artwork</h3>
+          <p class="space-g text-white text-center">
+            Create your collection, Add socia<br />l links, profile & banner
+            images, and set a secondary sales fee
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center bg-[#30384D] py-8 px-16 w-96 rounded"
+        >
+          <div>
+            <img src="./assets/cynft.png" alt="" />
+          </div>
+          <h3 class="dm-mono text-white">Upload</h3>
+          <p class="space-g text-white text-center">
+            Upload your work, customize your NFTs with properties, stats,<br />
+            and unlockable content.
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center bg-[#30384D] py-8 px-16 w-96 rounded"
+        >
+          <div>
+            <img src="./assets/cynft.png" alt="" />
+          </div>
+          <h3 class="dm-mono text-white">Listing</h3>
+          <p class="space-g text-white text-center">
+            Set up and choose between<br />auction, fixed-price listings, and<br />
+            declining-price listings
+          </p>
+        </div>
+      </div>
+      <div class="flex gap-8">
+        <button
+          class="btn-gradient text-white h-10 w-52 rounded mt-6 space-g text-base"
+        >
+          Create Now
+        </button>
+        <button
+          class="text-white h-10 w-52 rounded mt-6 space-g text-base border border-white"
+        >
+          Watch Video
+        </button>
+      </div>
+    </section>
+    <!-- NFTs Creator -->
+    <section class="mt-20 flex justify-center flex-col items-center">
+      <h4 class="dm-mono market text-sm text-center font-medium market">
+        NFT Creators
+      </h4>
+      <p class="space-g font-medium text-white text-4xl text-center mt-5">
+        Top Creators of the week
+      </p>
+      <div class="grid grid-cols-3 gap-10 mt-10">
+        <div
+          class="flex items-center justify-between gap-4 bg-[#30384D] p-3 w-96 rounded"
+        >
+          <div class="flex items-center gap-4">
+            <div class="">
+              <img
+                src="./assets/creator/creator1.png"
+                alt="creator"
+                class="h-20"
+              />
+            </div>
+            <div>
+              <h4 class="text-white dm-mono">Rick Storms</h4>
+              <p class="flex dm-mono text-white text-xs gap-2 items-center">
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                19,400.50 ETH
+              </p>
+            </div>
+          </div>
+          <div class="ml-0"><img src="./assets/threedots.png" /></div>
+        </div>
+        <div
+          class="flex items-center justify-between gap-4 bg-[#30384D] p-3 w-96 rounded"
+        >
+          <div class="flex items-center gap-4">
+            <div class="">
+              <img
+                src="./assets/creator/creator2.png"
+                alt="creator"
+                class="h-20"
+              />
+            </div>
+            <div>
+              <h4 class="text-white dm-mono">Rick Storms</h4>
+              <p class="flex dm-mono text-white text-xs gap-2 items-center">
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                19,400.50 ETH
+              </p>
+            </div>
+          </div>
+          <div class="ml-0"><img src="./assets/threedots.png" /></div>
+        </div>
+        <div
+          class="flex items-center justify-between gap-4 bg-[#30384D] p-3 w-96 rounded"
+        >
+          <div class="flex items-center gap-4">
+            <div class="">
+              <img
+                src="./assets/creator/creator3.png"
+                alt="creator"
+                class="h-20"
+              />
+            </div>
+            <div>
+              <h4 class="text-white dm-mono">Rick Storms</h4>
+              <p class="flex dm-mono text-white text-xs gap-2 items-center">
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                19,400.50 ETH
+              </p>
+            </div>
+          </div>
+          <div class="ml-0"><img src="./assets/threedots.png" /></div>
+        </div>
+        <div
+          class="flex items-center justify-between gap-4 bg-[#30384D] p-3 w-96 rounded"
+        >
+          <div class="flex items-center gap-4">
+            <div class="">
+              <img
+                src="./assets/creator/creator4.png"
+                alt="creator"
+                class="h-20"
+              />
+            </div>
+            <div>
+              <h4 class="text-white dm-mono">Rick Storms</h4>
+              <p class="flex dm-mono text-white text-xs gap-2 items-center">
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                19,400.50 ETH
+              </p>
+            </div>
+          </div>
+          <div class="ml-0"><img src="./assets/threedots.png" /></div>
+        </div>
+        <div
+          class="flex items-center justify-between gap-4 bg-[#30384D] p-3 w-96 rounded"
+        >
+          <div class="flex items-center gap-4">
+            <div class="">
+              <img
+                src="./assets/creator/creator5.png"
+                alt="creator"
+                class="h-20"
+              />
+            </div>
+            <div>
+              <h4 class="text-white dm-mono">Rick Storms</h4>
+              <p class="flex dm-mono text-white text-xs gap-2 items-center">
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                19,400.50 ETH
+              </p>
+            </div>
+          </div>
+          <div class="ml-0"><img src="./assets/threedots.png" /></div>
+        </div>
+        <div
+          class="flex items-center justify-between gap-4 bg-[#30384D] p-3 w-96 rounded"
+        >
+          <div class="flex items-center gap-4">
+            <div class="">
+              <img
+                src="./assets/creator/creator6.png"
+                alt="creator"
+                class="h-20"
+              />
+            </div>
+            <div>
+              <h4 class="text-white dm-mono">Rick Storms</h4>
+              <p class="flex dm-mono text-white text-xs gap-2 items-center">
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                19,400.50 ETH
+              </p>
+            </div>
+          </div>
+          <div class="ml-0"><img src="./assets/threedots.png" /></div>
+        </div>
+        <div
+          class="flex items-center justify-between gap-4 bg-[#30384D] p-3 w-96 rounded"
+        >
+          <div class="flex items-center gap-4">
+            <div class="">
+              <img
+                src="./assets/creator/creator7.png"
+                alt="creator"
+                class="h-20"
+              />
+            </div>
+            <div>
+              <h4 class="text-white dm-mono">Rick Storms</h4>
+              <p class="flex dm-mono text-white text-xs gap-2 items-center">
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                19,400.50 ETH
+              </p>
+            </div>
+          </div>
+          <div class="ml-0"><img src="./assets/threedots.png" /></div>
+        </div>
+        <div
+          class="flex items-center justify-between gap-4 bg-[#30384D] p-3 w-96 rounded"
+        >
+          <div class="flex items-center gap-4">
+            <div class="">
+              <img
+                src="./assets/creator/creator8.png"
+                alt="creator"
+                class="h-20"
+              />
+            </div>
+            <div>
+              <h4 class="text-white dm-mono">Rick Storms</h4>
+              <p class="flex dm-mono text-white text-xs gap-2 items-center">
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                19,400.50 ETH
+              </p>
+            </div>
+          </div>
+          <div class="ml-0"><img src="./assets/threedots.png" /></div>
+        </div>
+        <div
+          class="flex items-center justify-between gap-4 bg-[#30384D] p-3 w-96 rounded"
+        >
+          <div class="flex items-center gap-4">
+            <div class="">
+              <img
+                src="./assets/creator/creator9.png"
+                alt="creator"
+                class="h-20"
+              />
+            </div>
+            <div>
+              <h4 class="text-white dm-mono">Rick Storms</h4>
+              <p class="flex dm-mono text-white text-xs gap-2 items-center">
+                <img
+                  src="./assets/ethereum.png"
+                  class="h-5 w-5 bg-[#fff] rounded-full"
+                />
+                19,400.50 ETH
+              </p>
+            </div>
+          </div>
+          <div class="ml-0"><img src="./assets/threedots.png" /></div>
+        </div>
+      </div>
+      <button
+        class="text-white h-10 w-52 rounded mt-6 space-g text-base border border-white"
+      >
+        Watch Video
+      </button>
+    </section>
+    <!-- Community -->
+    <section
+      class="mt-20 flex justify-center flex-col items-center h-3/6 bg-[#30384D] p-24"
+    >
+      <h2 class="text-white space-g text-3xl">Join our Community</h2>
+      <p class="text-white space-g p-4">
+        Meet the Team, artists and collections for problem updates,
+        announcements, and more
+      </p>
+      <button
+        class="btn-gradient text-white h-10 w-52 rounded mt-6 space-g text-base"
+      >
+        Take me to discord
+      </button>
+    </section>
+    <footer class="mt-20 pb-10">
+      <div class="flex justify-between">
+        <div>
+          <h1 class="space-g text-white text-2xl">LOGO</h1>
+          <p class="font-normal space-g text-white">
+            Amazing NFTs marketplace, Authentic and unique<br />
+            digital creation.
+          </p>
+          <container class="flex gap-6 items-center mt-3">
+            <img src="./assets/social/Whatsapp.png" alt="Whatsapp" class="" />
+            <img src="./assets/social/facebook.png" alt="Whatsapp" class="" />
+            <img src="./assets/social/instagram.png" alt="Whatsapp" class="" />
+            <img src="./assets/social/youtube.png" alt="Whatsapp" class="" />
+          </container>
+        </div>
+        <div class="text-white flex gap-16">
+          <ul class="leading-loose">
+            <li>
+              <a href="" class="space-g font-bold text-xl">Marketplace</a>
+            </li>
+            <li><a href="" class="font-normal space-g">Explore</a></li>
+            <li><a href="" class="font-normal space-g">NFTs</a></li>
+            <li><a href="" class="font-normal space-g">Collectibles</a></li>
+            <li><a href="" class="font-normal space-g">Virtual Reality</a></li>
+          </ul>
+          <ul class="text-center leading-loose">
+            <li><a href="" class="space-g font-bold text-xl">Resources</a></li>
+            <li><a href="" class="font-normal space-g">Help Center</a></li>
+            <li><a href="" class="font-normal space-g">Partners</a></li>
+            <li><a href="" class="font-normal space-g">Blog</a></li>
+            <li><a href="" class="font-normal space-g">Newsletter</a></li>
+          </ul>
+          <ul class="text-end leading-loose">
+            <li><a href="" class="space-g font-bold text-xl">Company</a></li>
+            <li><a href="" class="font-normal space-g">About Us</a></li>
+            <li><a href="" class="font-normal space-g">Careers</a></li>
+            <li><a href="" class="font-normal space-g">Support</a></li>
+            <li><a href="" class="font-normal space-g">Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex items-center justify-between mt-10">
+        <h2 class="text-[#545C71] space-g">
+          Copyright 2022 logo, All right reserved.
+        </h2>
+        <ul class="text-[#545C71] space-g flex gap-5">
+          <li>Privacy Policy</li>
+          <li>Terms & Conditions</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="" async defer></script>
+  </body>
+</html>
